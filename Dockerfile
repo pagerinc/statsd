@@ -8,5 +8,6 @@ RUN set -a && . /opt/nodejs/.aptible.env && npm install --production
 
 ENV PORT 8125
 EXPOSE 8125
+EXPOSE 8126
 
 CMD npm start
